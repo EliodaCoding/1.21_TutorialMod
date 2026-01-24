@@ -21,6 +21,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CERVALITE.get());
                         pOutput.accept(ModItems.RAW_CERVALITE.get());
 
+                        pOutput.accept(ModItems.CHISEL.get());
+
                     })
                     .build());
 
