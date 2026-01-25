@@ -14,6 +14,19 @@
 
   "block.tutorialmod.magic_block": "Magic Block",
 
+  "block.tutorialmod.cervalite_stairs": "Cervalite Stairs",
+  "block.tutorialmod.cervalite_slab": "Cervalite Slab",
+
+  "block.tutorialmod.cervalite_button": "Cervalite Button",
+  "block.tutorialmod.cervalite_pressure_plate": "Cervalite Pressure Plate",
+
+  "block.tutorialmod.cervalite_fence": "Cervalite Fence",
+  "block.tutorialmod.cervalite_fence_gate": "Cervalite Fence Gate",
+  "block.tutorialmod.cervalite_wall": "Cervalite Wall",
+
+  "block.tutorialmod.cervalite_door": "Cervalite Door",
+  "block.tutorialmod.cervalite_trapdoor": "Cervalite Trapdoor",
+
   "creativetab.tutorialmod.cervalite_items": "Cervalite Items",
   "creativetab.tutorialmod.cervalite_blocks": "Cervalite Blocks",
 

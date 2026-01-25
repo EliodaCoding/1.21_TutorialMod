@@ -43,6 +43,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pRecipeOutput, CERVALITE_SMELTABLES, RecipeCategory.MISC, ModItems.CERVALITE.get(), 0.25f, 200, "cervalite");
         oreBlasting(pRecipeOutput, CERVALITE_SMELTABLES, RecipeCategory.MISC, ModItems.CERVALITE.get(), 0.25f, 100, "cervalite");
 
+        stairBuilder(ModBlocks.CERVALITE_STAIRS.get(), Ingredient.of(ModItems.CERVALITE.get())).group("cervalite")
+                .unlockedBy(getHasName(ModItems.CERVALITE.get()), has(ModItems.CERVALITE.get())).save(pRecipeOutput);
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CERVALITE_SLAB.get(), ModItems.CERVALITE.get());
+
+        buttonBuilder(ModBlocks.CERVALITE_BUTTON.get(), Ingredient.of(ModItems.CERVALITE.get())).group("cervalite")
+                .unlockedBy(getHasName(ModItems.CERVALITE.get()), has(ModItems.CERVALITE.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.CERVALITE_PRESSURE_PLATE.get(), ModItems.CERVALITE.get());
+
+        fenceBuilder(ModBlocks.CERVALITE_FENCE.get(), Ingredient.of(ModItems.CERVALITE.get())).group("cervalite")
+                .unlockedBy(getHasName(ModItems.CERVALITE.get()), has(ModItems.CERVALITE.get())).save(pRecipeOutput);
+        fenceGateBuilder(ModBlocks.CERVALITE_FENCE_GATE.get(), Ingredient.of(ModItems.CERVALITE.get())).group("cervalite")
+                .unlockedBy(getHasName(ModItems.CERVALITE.get()), has(ModItems.CERVALITE.get())).save(pRecipeOutput);
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CERVALITE_WALL.get(), ModItems.CERVALITE.get());
+
+        doorBuilder(ModBlocks.CERVALITE_DOOR.get(), Ingredient.of(ModItems.CERVALITE.get())).group("cervalite")
+                .unlockedBy(getHasName(ModItems.CERVALITE.get()), has(ModItems.CERVALITE.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.CERVALITE_TRAPDOOR.get(), Ingredient.of(ModItems.CERVALITE.get())).group("cervalite")
+                .unlockedBy(getHasName(ModItems.CERVALITE.get()), has(ModItems.CERVALITE.get())).save(pRecipeOutput);
     }
 
     //extra code to make sure smelting recipes go into the mod folder and not the minecraft one

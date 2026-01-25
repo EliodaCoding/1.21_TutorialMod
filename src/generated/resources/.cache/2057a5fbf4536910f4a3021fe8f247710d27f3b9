@@ -1,5 +1,9 @@
-// 1.21	2026-01-24T16:36:12.2385398	Item Models: tutorialmod
+// 1.21	2026-01-24T22:56:50.0414334	Item Models: tutorialmod
 03a2efa6bebfb549c2fb5176685688797021f1b1 assets/tutorialmod/models/item/cervalite.json
+222b027a2fd40f2bc2762c006c428cfc982fe7c2 assets/tutorialmod/models/item/cervalite_button.json
+cc96c4eb448f7629028c54df134e6d9b3bb77bc0 assets/tutorialmod/models/item/cervalite_door.json
+fa03609d9454621a59108c46cbf3a7027d7767c9 assets/tutorialmod/models/item/cervalite_fence.json
+83e886ae9da622b931fa2f2d1b7a2ccf44e5209f assets/tutorialmod/models/item/cervalite_wall.json
 69a45d9eda7fcbbb46f3a4bf568243a7b2141123 assets/tutorialmod/models/item/chisel.json
 cbbe647b555ecbff8ea6f9b268511de4173d138a assets/tutorialmod/models/item/raw_cervalite.json
 012ef8300cfed93e59f9d02d0d0bffa48ffb846e assets/tutorialmod/models/item/spirit_ashes.json

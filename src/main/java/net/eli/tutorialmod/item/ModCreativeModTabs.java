@@ -43,6 +43,18 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.MAGIC_BLOCK.get());
 
+                        pOutput.accept(ModBlocks.CERVALITE_STAIRS.get());
+                        pOutput.accept(ModBlocks.CERVALITE_SLAB.get());
+
+                        pOutput.accept(ModBlocks.CERVALITE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.CERVALITE_BUTTON.get());
+
+                        pOutput.accept(ModBlocks.CERVALITE_FENCE.get());
+                        pOutput.accept(ModBlocks.CERVALITE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.CERVALITE_WALL.get());
+
+                        pOutput.accept(ModBlocks.CERVALITE_DOOR.get());
+                        pOutput.accept(ModBlocks.CERVALITE_TRAPDOOR.get());
                     })
                     .build());
 

@@ -31,5 +31,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.CERVALITE_DEEPSLATE_ORE.get());
 
+        tag(BlockTags.FENCES).add(ModBlocks.CERVALITE_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.CERVALITE_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.CERVALITE_WALL.get());
     }
 }

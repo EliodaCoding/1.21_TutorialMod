@@ -32,6 +32,21 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAW_CERVALITE_BLOCK.get());
         dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
+        dropSelf(ModBlocks.CERVALITE_STAIRS.get());
+        this.add(ModBlocks.CERVALITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CERVALITE_SLAB.get()));
+
+        dropSelf(ModBlocks.CERVALITE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.CERVALITE_BUTTON.get());
+
+        dropSelf(ModBlocks.CERVALITE_FENCE.get());
+        dropSelf(ModBlocks.CERVALITE_FENCE_GATE.get());
+        dropSelf(ModBlocks.CERVALITE_WALL.get());
+
+        this.add(ModBlocks.CERVALITE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.CERVALITE_DOOR.get()));
+        dropSelf(ModBlocks.CERVALITE_TRAPDOOR.get());
+
         this.add(ModBlocks.CERVALITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.CERVALITE_ORE.get(), ModItems.RAW_CERVALITE.get()));
         this.add(ModBlocks.CERVALITE_DEEPSLATE_ORE.get(),

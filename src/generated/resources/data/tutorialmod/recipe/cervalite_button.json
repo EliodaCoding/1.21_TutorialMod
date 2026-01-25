@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "cervalite",
+  "ingredients": [
+    {
+      "item": "tutorialmod:cervalite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:cervalite_button"
+  }
+}
