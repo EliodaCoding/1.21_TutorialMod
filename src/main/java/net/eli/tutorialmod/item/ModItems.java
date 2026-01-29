@@ -4,6 +4,7 @@ import net.eli.tutorialmod.TutorialMod;
 import net.eli.tutorialmod.item.custom.ChiselItem;
 import net.eli.tutorialmod.item.custom.FuelItem;
 import net.eli.tutorialmod.item.custom.HammerItem;
+import net.eli.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -61,7 +62,7 @@ public class ModItems {
 
     //armor
     public static final RegistryObject<Item> CERVALITE_HELMET = ITEMS.register("cervalite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.CERVALITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.CERVALITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
     public static final RegistryObject<Item> CERVALITE_CHESTPLATE = ITEMS.register("cervalite_chestplate",
             () -> new ArmorItem(ModArmorMaterials.CERVALITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
