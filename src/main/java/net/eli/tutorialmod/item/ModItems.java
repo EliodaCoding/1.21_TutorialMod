@@ -3,6 +3,7 @@ package net.eli.tutorialmod.item;
 import net.eli.tutorialmod.TutorialMod;
 import net.eli.tutorialmod.item.custom.ChiselItem;
 import net.eli.tutorialmod.item.custom.FuelItem;
+import net.eli.tutorialmod.item.custom.HammerItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -55,6 +56,11 @@ public class ModItems {
     public static final RegistryObject<Item> CERVALITE_HOE = ITEMS.register("cervalite_hoe",
             () -> new HoeItem(ModToolTiers.CERVALITE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.CERVALITE, 0, -3.0f))));
+
+    public static final RegistryObject<Item> CERVALITE_HAMMER = ITEMS.register("cervalite_hammer",
+            () -> new HammerItem(ModToolTiers.CERVALITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.CERVALITE, 8, -3.5f))));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,9 +1,10 @@
-// 1.21	2026-01-28T18:36:25.6447551	Item Models: tutorialmod
+// 1.21	2026-01-28T19:19:13.0804055	Item Models: tutorialmod
 03a2efa6bebfb549c2fb5176685688797021f1b1 assets/tutorialmod/models/item/cervalite.json
 1f63aed8799db850dfe0fc0ae264e0979b698fec assets/tutorialmod/models/item/cervalite_axe.json
 222b027a2fd40f2bc2762c006c428cfc982fe7c2 assets/tutorialmod/models/item/cervalite_button.json
 12a4705bcb1582bdf99c707fb46ec1ac6e66330b assets/tutorialmod/models/item/cervalite_door.json
 fa03609d9454621a59108c46cbf3a7027d7767c9 assets/tutorialmod/models/item/cervalite_fence.json
+9f2b53c959825e7e340467ac54f642a545052b01 assets/tutorialmod/models/item/cervalite_hammer.json
 c90a151e7442cf4ed70906b04e90d3c5c316bd0e assets/tutorialmod/models/item/cervalite_hoe.json
 e522a862a1ff825b5df2616908fdbe2524294eb2 assets/tutorialmod/models/item/cervalite_pickaxe.json
 bc2077cc2c4dd97195d714ff704ccf1f0fb2e0ab assets/tutorialmod/models/item/cervalite_shovel.json

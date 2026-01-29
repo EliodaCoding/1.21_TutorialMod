@@ -32,6 +32,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CERVALITE_SHOVEL.get());
                         pOutput.accept(ModItems.CERVALITE_HOE.get());
 
+                        pOutput.accept(ModItems.CERVALITE_HAMMER.get());
+
                     })
                     .build());
 

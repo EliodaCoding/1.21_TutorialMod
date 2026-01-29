@@ -38,6 +38,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.CERVALITE_SHOVEL);
         handheldItem(ModItems.CERVALITE_AXE);
         handheldItem(ModItems.CERVALITE_HOE);
+
+        handheldItem(ModItems.CERVALITE_HAMMER);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
