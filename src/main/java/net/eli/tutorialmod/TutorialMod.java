@@ -2,6 +2,7 @@ package net.eli.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.eli.tutorialmod.blocks.ModBlocks;
+import net.eli.tutorialmod.component.ModDataComponentTypes;
 import net.eli.tutorialmod.item.ModCreativeModTabs;
 import net.eli.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -43,6 +44,8 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
