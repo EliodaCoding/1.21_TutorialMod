@@ -10,6 +10,13 @@
   //custom item
   "item.tutorialmod.chisel": "Chisel",
 
+  //tools
+  "item.tutorialmod.cervalite_sword": "Cervalite Sword",
+  "item.tutorialmod.cervalite_pickaxe": "Cervalite Pickaxe",
+  "item.tutorialmod.cervalite_axe": "Cervalite Axe",
+  "item.tutorialmod.cervalite_shovel": "Cervalite Shovel",
+  "item.tutorialmod.cervalite_hoe": "Cervalite Hoe",
+
   //blocks
   "block.tutorialmod.cervalite_block": "Block of Cervalite",
   "block.tutorialmod.raw_cervalite_block": "Block of Raw Cervalite",

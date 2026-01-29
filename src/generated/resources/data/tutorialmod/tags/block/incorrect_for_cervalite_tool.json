@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#tutorialmod:needs_cervalite_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ]
+}

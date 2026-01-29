@@ -26,6 +26,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.SPIRIT_ASHES.get());
 
+                        pOutput.accept(ModItems.CERVALITE_SWORD.get());
+                        pOutput.accept(ModItems.CERVALITE_AXE.get());
+                        pOutput.accept(ModItems.CERVALITE_PICKAXE.get());
+                        pOutput.accept(ModItems.CERVALITE_SHOVEL.get());
+                        pOutput.accept(ModItems.CERVALITE_HOE.get());
+
                     })
                     .build());
 
