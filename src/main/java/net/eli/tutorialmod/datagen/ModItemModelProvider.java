@@ -49,7 +49,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CERVALITE.get());
         basicItem(ModItems.RAW_CERVALITE.get());
 
-        basicItem(ModItems.CHISEL.get());
+        //basicItem(ModItems.CHISEL.get());
         basicItem(ModItems.STRAWBERRY.get());
         basicItem(ModItems.SPIRIT_ASHES.get());
 

@@ -5,6 +5,7 @@ import net.eli.tutorialmod.blocks.ModBlocks;
 import net.eli.tutorialmod.component.ModDataComponentTypes;
 import net.eli.tutorialmod.item.ModCreativeModTabs;
 import net.eli.tutorialmod.item.ModItems;
+import net.eli.tutorialmod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -87,6 +88,9 @@ public class TutorialMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            //add custom properties
+            ModItemProperties.addCustomItemProperties();
+
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
