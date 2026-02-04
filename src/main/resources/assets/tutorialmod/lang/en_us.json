@@ -27,6 +27,11 @@
   //animal armor
   "item.tutorialmod.cervalite_horse_armor": "Cervalite Horse Armor",
 
+  //armor trim
+  "item.tutorialmod.cervine_armor_trim_smithing_template": "Cervine Armor Trim Template",
+  "trim_pattern.tutorialmod.cervine": "Cervine Armor Trim",
+  "trim_material.tutorialmod.cervalite": "Cervalite Material",
+
   //blocks
   "block.tutorialmod.cervalite_block": "Block of Cervalite",
   "block.tutorialmod.raw_cervalite_block": "Block of Raw Cervalite",

@@ -36,6 +36,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.CERVALITE_CHESTPLATE.get())
                 .add(ModItems.CERVALITE_LEGGINGS.get())
                 .add(ModItems.CERVALITE_BOOTS.get());
+
+        tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.CERVALITE.get());
+
+        tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.CERVINE_SMITHING_TEMPLATE.get());
     }
 
 

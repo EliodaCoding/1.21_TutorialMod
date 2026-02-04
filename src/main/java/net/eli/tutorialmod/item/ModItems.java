@@ -6,6 +6,7 @@ import net.eli.tutorialmod.item.custom.FuelItem;
 import net.eli.tutorialmod.item.custom.HammerItem;
 import net.eli.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -78,6 +79,9 @@ public class ModItems {
     public static final RegistryObject<Item> CERVALITE_HORSE_ARMOR = ITEMS.register("cervalite_horse_armor",
             () -> new AnimalArmorItem(ModArmorMaterials.CERVALITE_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
                     false, new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> CERVINE_SMITHING_TEMPLATE = ITEMS.register("cervine_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "cervine")));
 
 
     public static void register(IEventBus eventBus) {

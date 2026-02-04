@@ -78,6 +78,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //animal armor
         basicItem(ModItems.CERVALITE_HORSE_ARMOR.get());
+
+        //armor trim
+        basicItem(ModItems.CERVINE_SMITHING_TEMPLATE.get());
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

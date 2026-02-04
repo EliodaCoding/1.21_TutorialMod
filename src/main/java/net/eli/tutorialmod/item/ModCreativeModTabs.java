@@ -46,6 +46,9 @@ public class ModCreativeModTabs {
                         //animal armor
                         pOutput.accept(ModItems.CERVALITE_HORSE_ARMOR.get());
 
+                        //armor trim
+                        pOutput.accept(ModItems.CERVINE_SMITHING_TEMPLATE.get());
+
                     })
                     .build());
 
