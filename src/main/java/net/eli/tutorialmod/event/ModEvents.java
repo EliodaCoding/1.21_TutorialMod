@@ -3,6 +3,7 @@ package net.eli.tutorialmod.event;
 import net.eli.tutorialmod.TutorialMod;
 import net.eli.tutorialmod.effect.ComfortedEffect;
 import net.eli.tutorialmod.effect.ModEffects;
+import net.eli.tutorialmod.potion.ModPotions;
 import net.minecraft.core.Holder;
 import net.eli.tutorialmod.item.custom.HammerItem;
 import net.minecraft.core.BlockPos;
@@ -14,6 +15,9 @@ import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.alchemy.PotionBrewing;
+import net.minecraft.world.item.alchemy.Potions;
+import net.minecraftforge.event.brewing.BrewingRecipeRegisterEvent;
 import net.minecraftforge.event.entity.living.LivingDamageEvent;
 import net.minecraftforge.event.entity.living.LivingKnockBackEvent;
 import net.minecraftforge.event.entity.living.MobEffectEvent;
@@ -89,5 +93,13 @@ public class ModEvents {
         if (event.getEffect() == ModEffects.COMFORTED_EFFECT.get() && event.getEntity() instanceof Player player) {
             ComfortedEffect.clearPlayerData(player.getUUID());
         }
+    }
+
+    @SubscribeEvent
+    public static void onBrewingRecipeRegister(BrewingRecipeRegisterEvent event) {
+        PotionBrewing.Builder builder = event.getBuilder();
+
+        builder.addMix(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION.getHolder().get());
+        builder.addMix(Potions.AWKWARD, Items.WHITE_WOOL, ModPotions.COMFORT_POTION.getHolder().get());
     }
 }

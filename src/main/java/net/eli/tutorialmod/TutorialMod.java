@@ -6,6 +6,7 @@ import net.eli.tutorialmod.component.ModDataComponentTypes;
 import net.eli.tutorialmod.effect.ModEffects;
 import net.eli.tutorialmod.item.ModCreativeModTabs;
 import net.eli.tutorialmod.item.ModItems;
+import net.eli.tutorialmod.potion.ModPotions;
 import net.eli.tutorialmod.sound.ModSounds;
 import net.eli.tutorialmod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
@@ -50,7 +51,9 @@ public class TutorialMod {
 
         ModDataComponentTypes.register(modEventBus);
         ModSounds.register(modEventBus);
+
         ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
