@@ -41,7 +41,7 @@ public class ModItems {
     public static final RegistryObject<Item> SPIRIT_ASHES = ITEMS.register("spirit_ashes",
             () -> new FuelItem(new Item.Properties(), 1200));
 
-    //tools
+    //tools and weapons
     public static final RegistryObject<Item> CERVALITE_SWORD = ITEMS.register("cervalite_sword",
             () -> new SwordItem(ModToolTiers.CERVALITE, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.CERVALITE, 3, -2.4f))));
@@ -80,9 +80,13 @@ public class ModItems {
             () -> new AnimalArmorItem(ModArmorMaterials.CERVALITE_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
                     false, new Item.Properties().stacksTo(1)));
 
+    //armor customization
     public static final RegistryObject<Item> CERVINE_SMITHING_TEMPLATE = ITEMS.register("cervine_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "cervine")));
 
+    //ranged weapon
+    public static final RegistryObject<Item> CERVINE_BOW = ITEMS.register("cervine_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

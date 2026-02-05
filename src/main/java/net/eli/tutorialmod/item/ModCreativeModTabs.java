@@ -26,12 +26,14 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.SPIRIT_ASHES.get());
 
-                        //tools
+                        //tools and weapons
                         pOutput.accept(ModItems.CERVALITE_SWORD.get());
                         pOutput.accept(ModItems.CERVALITE_AXE.get());
                         pOutput.accept(ModItems.CERVALITE_PICKAXE.get());
                         pOutput.accept(ModItems.CERVALITE_SHOVEL.get());
                         pOutput.accept(ModItems.CERVALITE_HOE.get());
+
+                        pOutput.accept(ModItems.CERVINE_BOW.get());
 
                         //custom tools
                         pOutput.accept(ModItems.CHISEL.get());

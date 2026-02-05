@@ -10,13 +10,16 @@
   //custom item
   "item.tutorialmod.chisel": "Chisel",
 
-  //tools
+  //tools and weapons
   "item.tutorialmod.cervalite_sword": "Cervalite Sword",
   "item.tutorialmod.cervalite_pickaxe": "Cervalite Pickaxe",
   "item.tutorialmod.cervalite_axe": "Cervalite Axe",
   "item.tutorialmod.cervalite_shovel": "Cervalite Shovel",
   "item.tutorialmod.cervalite_hoe": "Cervalite Hoe",
   "item.tutorialmod.cervalite_hammer": "Cervalite Hammer",
+
+  //ranged weapons
+  "item.tutorialmod.cervine_bow": "Cervine Bow",
 
   //player armor
   "item.tutorialmod.cervalite_helmet": "Cervalite Helmet",
