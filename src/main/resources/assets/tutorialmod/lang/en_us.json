@@ -62,6 +62,10 @@
   "creativetab.tutorialmod.cervalite_items": "Cervalite Items",
   "creativetab.tutorialmod.cervalite_blocks": "Cervalite Blocks",
 
+  //music
+  "item.tutorialmod.upside_down_music_disc": "Upside Down Disc",
+  "item.tutorialmod.upside_down_music_disc.desc": "Black Gryphon & Baasik - Upside Down",
+
   //tooltips
   "tooltip.tutorial.magic_block.tooltip": "This block is §9magic§r",
   "tooltip.tutorial.chisel.shift_down": "This item chisels... §eduh§r",

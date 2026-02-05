@@ -34,5 +34,15 @@
     "sounds": [
       "tutorialmod:magic_block_fall"
     ]
+  },
+  "upside_down": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "tutorialmod:upside_down",
+        "stream": true,
+        "volume": 0.1
+      }
+    ]
   }
 }

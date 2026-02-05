@@ -51,6 +51,9 @@ public class ModCreativeModTabs {
                         //armor trim
                         pOutput.accept(ModItems.CERVINE_SMITHING_TEMPLATE.get());
 
+                        //music disc
+                        pOutput.accept(ModItems.UPSIDE_DOWN_DISC.get());
+
                     })
                     .build());
 

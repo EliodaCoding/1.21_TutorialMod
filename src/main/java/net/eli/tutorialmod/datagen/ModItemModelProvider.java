@@ -81,6 +81,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //armor trim
         basicItem(ModItems.CERVINE_SMITHING_TEMPLATE.get());
+
+        //music disk
+        basicItem(ModItems.UPSIDE_DOWN_DISC.get());
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

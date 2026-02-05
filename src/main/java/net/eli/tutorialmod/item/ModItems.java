@@ -5,6 +5,7 @@ import net.eli.tutorialmod.item.custom.ChiselItem;
 import net.eli.tutorialmod.item.custom.FuelItem;
 import net.eli.tutorialmod.item.custom.HammerItem;
 import net.eli.tutorialmod.item.custom.ModArmorItem;
+import net.eli.tutorialmod.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
@@ -87,6 +88,9 @@ public class ModItems {
     //ranged weapon
     public static final RegistryObject<Item> CERVINE_BOW = ITEMS.register("cervine_bow",
             () -> new BowItem(new Item.Properties().durability(500)));
+
+    public static final RegistryObject<Item> UPSIDE_DOWN_DISC = ITEMS.register("upside_down_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.UPSIDE_DOWN_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
