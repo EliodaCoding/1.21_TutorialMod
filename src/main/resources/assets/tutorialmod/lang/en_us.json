@@ -62,6 +62,14 @@
   "creativetab.tutorialmod.cervalite_items": "Cervalite Items",
   "creativetab.tutorialmod.cervalite_blocks": "Cervalite Blocks",
 
+  //art
+  "painting.tutorialmod.braised.title": "Braised",
+  "painting.tutorialmod.braised.author": "N/A",
+  "painting.tutorialmod.penguin_stare.title": "Penguin Stare",
+  "painting.tutorialmod.penguin_stare.author": "N/A",
+  "painting.tutorialmod.deer_goober.title": "Deer Goober",
+  "painting.tutorialmod.deer_goober.author": "N/A",
+
   //music
   "item.tutorialmod.upside_down_music_disc": "Upside Down Disc",
   "item.tutorialmod.upside_down_music_disc.desc": "Black Gryphon & Baasik - Upside Down",
