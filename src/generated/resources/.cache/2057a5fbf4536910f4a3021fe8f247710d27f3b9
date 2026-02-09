@@ -1,4 +1,4 @@
-// 1.21	2026-02-04T18:06:48.7786655	Item Models: tutorialmod
+// 1.21	2026-02-08T21:45:02.7839737	Item Models: tutorialmod
 03a2efa6bebfb549c2fb5176685688797021f1b1 assets/tutorialmod/models/item/cervalite.json
 1f63aed8799db850dfe0fc0ae264e0979b698fec assets/tutorialmod/models/item/cervalite_axe.json
 42b31a3a9f69a068ddc9c5c751a9c5c90da7163d assets/tutorialmod/models/item/cervalite_boots.json
@@ -59,4 +59,5 @@ b122f650cb1772179b3d0d1924041ff838190e8c assets/tutorialmod/models/item/cervine_
 cbbe647b555ecbff8ea6f9b268511de4173d138a assets/tutorialmod/models/item/raw_cervalite.json
 012ef8300cfed93e59f9d02d0d0bffa48ffb846e assets/tutorialmod/models/item/spirit_ashes.json
 0f4c6f5df2121954f3a0de1eb8e66d8c587fed43 assets/tutorialmod/models/item/strawberry.json
+85dffe5c3e34ee76908efb087a4ed2c43e945942 assets/tutorialmod/models/item/strawberry_seeds.json
 5a16989e0ee8360067bb57f068fe3747e5fe1773 assets/tutorialmod/models/item/upside_down_music_disc.json

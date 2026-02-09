@@ -86,6 +86,10 @@
   "item.minecraft.splash_potion.effect.comfort_potion": "Comfort Splash Potion",
   "item.minecraft.lingering_potion.effect.comfort_potion": "Comfort Lingering Potion",
 
+  //crops
+  "item.tutorialmod.strawberry_seeds": "Strawberry Seeds",
+  "block.tutorialmod.strawberry_crop": "Strawberry Crop",
+
   //Enchantments
   "enchantment.tutorialmod.lightning_striker": "Lightning Striker",
 

@@ -1,4 +1,4 @@
-// 1.21	2026-01-25T11:40:46.6880282	Loot Tables
+// 1.21	2026-02-08T21:30:45.0990355	Loot Tables
 23c1495dc266c1df4b17e6b9ab1eede5eaa3bafc data/tutorialmod/loot_table/blocks/cervalite_block.json
 8e5e02fc7aa6b568e450f96efb43d22a7885eae1 data/tutorialmod/loot_table/blocks/cervalite_button.json
 36bff43ca83964e7ca5bd5f991896adc6fc9bdbd data/tutorialmod/loot_table/blocks/cervalite_deepslate_ore.json
@@ -14,3 +14,4 @@ ebbded7d57a7b782801bba4e0e695256a11665ae data/tutorialmod/loot_table/blocks/cerv
 cd2d3b5916fd7ed08f785c876a941226cc540d24 data/tutorialmod/loot_table/blocks/cervalite_wall.json
 8cadd73280b5040d1e510cad246834ca39b6b62f data/tutorialmod/loot_table/blocks/magic_block.json
 f43b31b3d5d152d436a329fd13c89fa5bf5ab268 data/tutorialmod/loot_table/blocks/raw_cervalite_block.json
+e9b1c80316d4fc09e1b4d119ecd8c0b6e2eedf30 data/tutorialmod/loot_table/blocks/strawberry_crop.json

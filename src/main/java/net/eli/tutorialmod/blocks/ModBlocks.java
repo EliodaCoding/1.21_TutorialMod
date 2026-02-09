@@ -3,6 +3,7 @@ package net.eli.tutorialmod.blocks;
 import net.eli.tutorialmod.TutorialMod;
 import net.eli.tutorialmod.blocks.custom.CervaliteLampBlock;
 import net.eli.tutorialmod.blocks.custom.MagicBlock;
+import net.eli.tutorialmod.blocks.custom.StrawberryCropBlock;
 import net.eli.tutorialmod.item.ModItems;
 import net.eli.tutorialmod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -74,6 +75,8 @@ public class ModBlocks {
             () -> new CervaliteLampBlock(BlockBehaviour.Properties.of().strength(3f)
                     .lightLevel(state -> state.getValue(CervaliteLampBlock.CLICKED)?15:0)));
 
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
 
     //Helper Methods
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

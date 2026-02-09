@@ -1,4 +1,4 @@
-// 1.21	2026-01-25T11:40:46.6890286	Block States: tutorialmod
+// 1.21	2026-02-08T21:30:45.1010361	Block States: tutorialmod
 f3ff353525a1ccebb36872b18127467e4c04d075 assets/tutorialmod/blockstates/cervalite_block.json
 592b45bbe4d2db1c4c02eaa7d94b9678ea0eeda0 assets/tutorialmod/blockstates/cervalite_button.json
 00c1b2449b37f7d7d95296b79686843ed95c5389 assets/tutorialmod/blockstates/cervalite_deepslate_ore.json
@@ -14,6 +14,7 @@ b61db0a07a0dc2346e1a6e7eee6072b1b0a044bb assets/tutorialmod/blockstates/cervalit
 3432b829cee02b0932913315b550f778a8e98ad0 assets/tutorialmod/blockstates/cervalite_wall.json
 2d316979b5247b802b0590d94b40bac75fde6974 assets/tutorialmod/blockstates/magic_block.json
 d8b94681ccc70e4fafd65d74b41f426fd9e65368 assets/tutorialmod/blockstates/raw_cervalite_block.json
+2d351697436f7efeaf707cb1dca6115004d8ab70 assets/tutorialmod/blockstates/strawberry_crop.json
 d997d5dc79fd709d59fe65457ace3a7b257825e8 assets/tutorialmod/models/block/cervalite_block.json
 053f864e4eb6ea3c3838367e54d53cfe10ca5406 assets/tutorialmod/models/block/cervalite_button.json
 75fc523b165160196db86c5f4fda1d5b228c9e19 assets/tutorialmod/models/block/cervalite_button_pressed.json
@@ -50,6 +51,10 @@ e11c4a39027a39a779d11f6f56a103489715644b assets/tutorialmod/models/block/cervali
 77d9719b25a360315e1aa3ff4521ee00f2b484dd assets/tutorialmod/models/block/cervalite_wall_side_tall.json
 ed27aaa00c275028e1495bb6d6bfdcea1851067b assets/tutorialmod/models/block/magic_block.json
 1bc06786b366e95c435cddb0763e1d2a81f92c98 assets/tutorialmod/models/block/raw_cervalite_block.json
+0cd8a48330f63c2956a4696f3ac3daff060f57d6 assets/tutorialmod/models/block/strawberry_crop_stage0.json
+ad84606704667e2a531adcdcc96b55b916362585 assets/tutorialmod/models/block/strawberry_crop_stage1.json
+5205a6d82ed18979071ca3d0bf9a346408aa3e45 assets/tutorialmod/models/block/strawberry_crop_stage2.json
+3db767054c6ec5380f3540d0333c2dade75be3f2 assets/tutorialmod/models/block/strawberry_crop_stage3.json
 05d0102f205c13712e8bf14174cf52a07ec33cfb assets/tutorialmod/models/item/cervalite_block.json
 e29e7ac6a484bcb26bc147b01c26b36d15cd39a2 assets/tutorialmod/models/item/cervalite_deepslate_ore.json
 101eba9d5184aed63334c0e90aa6faa446a3a361 assets/tutorialmod/models/item/cervalite_fence_gate.json
