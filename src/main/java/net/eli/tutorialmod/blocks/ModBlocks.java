@@ -2,6 +2,7 @@ package net.eli.tutorialmod.blocks;
 
 import net.eli.tutorialmod.TutorialMod;
 import net.eli.tutorialmod.blocks.custom.CervaliteLampBlock;
+import net.eli.tutorialmod.blocks.custom.HoneyBerryBushBlock;
 import net.eli.tutorialmod.blocks.custom.MagicBlock;
 import net.eli.tutorialmod.blocks.custom.StrawberryCropBlock;
 import net.eli.tutorialmod.item.ModItems;
@@ -77,6 +78,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> HONEY_BERRY_BUSH = BLOCKS.register("honey_berry_bush",
+            () -> new HoneyBerryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
     //Helper Methods
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

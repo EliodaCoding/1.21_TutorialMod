@@ -54,6 +54,7 @@ public class ModCreativeModTabs {
 
                         //music disc
                         pOutput.accept(ModItems.UPSIDE_DOWN_DISC.get());
+                        pOutput.accept(ModItems.HONEY_BERRIES.get());
 
                     })
                     .build());

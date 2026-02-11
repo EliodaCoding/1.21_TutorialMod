@@ -89,6 +89,8 @@
   //crops
   "item.tutorialmod.strawberry_seeds": "Strawberry Seeds",
   "block.tutorialmod.strawberry_crop": "Strawberry Crop",
+  "block.tutorialmod.honey_berry_bush": "Honey Berry Bush",
+  "item.tutorialmod.honey_berries": "Honey Berries",
 
   //Enchantments
   "enchantment.tutorialmod.lightning_striker": "Lightning Striker",

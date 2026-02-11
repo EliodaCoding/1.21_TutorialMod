@@ -8,4 +8,6 @@ public class ModFoodProperties {
     public static final FoodProperties STRAWBERRY = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f)
             .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 400), 0.3f).build();
 
+    public static final FoodProperties HONEY_BERRY = new FoodProperties.Builder().nutrition(2)
+            .saturationModifier(0.15f).fast().build();
 }
